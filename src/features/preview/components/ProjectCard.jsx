@@ -9,7 +9,7 @@ function ProjectCard({ project }) {
       <div className={styles.meta}>
         <span className={styles.languageDot} style={{ backgroundColor: getLanguageColor(project.language) }} />
         <span>{project.language}</span>
-        {project.stars != null && <span>⭐ {project.stars}</span>}
+        {project.stars != null && <span>{project.stars}</span>}
       </div>
       {project.htmlUrl && (
         <a href={project.htmlUrl} target="_blank" rel="noreferrer" className={styles.link}>

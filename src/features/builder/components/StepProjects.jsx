@@ -62,7 +62,7 @@ function StepProjects() {
                 onClick={() => handleOptimize(project)}
                 disabled={optimizingId === project.id}
               >
-                {optimizingId === project.id ? <Spinner size="sm" /> : "✨ Optimize with AI"}
+                {optimizingId === project.id ? <Spinner size="sm" /> : "Optimize with AI"}
               </button>
             </div>
           </li>
